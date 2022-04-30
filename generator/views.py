@@ -6,6 +6,9 @@ import random
 def home(request):
     return render(request, 'generator/home.html')
 
+def info(request):
+    return render(request, 'generator/info.html')
+
 def password(request):
 
     characters = list('abcdefghijklmnopqrstuvwxyz') #создаем список символов из строки
